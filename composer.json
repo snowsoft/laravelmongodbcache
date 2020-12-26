@@ -27,5 +27,9 @@
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "suggest": {
+        "jenssegers/mongodb-session": "Add MongoDB session support to Laravel-MongoDB",
+        "jenssegers/mongodb-sentry": "Add Sentry support to Laravel-MongoDB"
+    }
 }
