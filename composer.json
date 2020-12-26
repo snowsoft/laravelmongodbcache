@@ -1,7 +1,8 @@
 {
     "name": "snowsoft/laravelmongodbcache",
     "description": "A MongoDB cache driver for Laravel",
- 
+    "homepage": "https://github.com/snowsoft/laravelmongodbcache",
+    "type": "library",
     "require": {
         "php": ">=7.3.0",
         "jenssegers/mongodb": "*",
