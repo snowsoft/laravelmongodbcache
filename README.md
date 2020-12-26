@@ -12,7 +12,7 @@ Install using composer:
 
 Add the session service provider in `app/config/app.php`:
 
-    'Nlk\Mongodb\Cache\MongoCacheServiceProvider',
+    'Nlk\Mongodb\Cache\MongoCacheServiceProvider::class',
     
 Add mongodb cache store in `app/config/cache.php`
 
