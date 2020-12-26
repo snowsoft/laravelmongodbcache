@@ -17,13 +17,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nlk\\Mongodb\\Cache\\": "src/"
+            "Nlk\\Mongodbcache\\Cache\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Nlk\\Mongodb\\Cache\\MongoCacheServiceProvider"
+                "Nlk\\Mongodbcache\\Cache\\MongoCacheServiceProvider"
             ]
         }
     },

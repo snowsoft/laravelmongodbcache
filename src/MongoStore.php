@@ -1,10 +1,12 @@
 <?php
 
 
-namespace Nlk\Mongodb\Cache;
+namespace Nlk\Mongodbcache\Cache;
 use Jenssegers\Mongodb\Connection;
-use Illuminate\Cache\StoreInterface;
+use Illuminate\Contracts\Cache\Store;
 use Illuminate\Encryption\Encrypter;
+
+
 
 class MongoStore implements Store
 {

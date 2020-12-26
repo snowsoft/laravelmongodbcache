@@ -1,8 +1,8 @@
 <?php
 
-namespace Nlk\Mongodb\Cache;
+namespace Nlk\Mongodbcache\Cache;
 
-use Nlk\Mongodb\Cache\MongoStore;
+ 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\ServiceProvider;
 
