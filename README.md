@@ -8,7 +8,7 @@ Make sure you have [jenssegers\mongodb](https://github.com/jenssegers/Laravel-Mo
 
 Install using composer:
 
-    composer require nlksoft/laravel-mongodb-cache
+    composer require snowsoft/laravel-mongodb-cache
 
 Add the session service provider in `app/config/app.php`:
 
