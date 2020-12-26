@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Nlk\Mongodbcache\Cache;
+namespace Nlk\Mongodb\Cache;
 
 
 use Illuminate\Cache\CacheManager;

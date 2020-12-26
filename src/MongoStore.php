@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Nlk\Mongodbcache\Cache;
+namespace Nlk\Mongodb\Cache;
 use Jenssegers\Mongodb\Connection;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Encryption\Encrypter;
@@ -113,6 +113,10 @@ class MongoStore implements Store
             $this->getCacheCollection()->where('key', $key)->update($data);
         }
     }
+
+
+    public function Many(array $values, $seconds) {}
+    public function putMany(array $values, $seconds) {}
 
     /**
      * Increment the value of an item in the cache.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nlk\Mongodbcache\Cache;
+namespace Nlk\Mongodb\Cache;
 
  
 use Illuminate\Support\Facades\Cache;
